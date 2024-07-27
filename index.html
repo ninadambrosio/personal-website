@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>☆ Nina D'Ambrosio</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="mediaqueries.css" />
+     </head>
+
+    <body>
+        <!---nav bar-->
+        <nav id="desktop-nav">
+            <div class="logo">
+                <div id="logo-pic">
+                    <img src="./assets/images/cnl.png" alt="my logo" class="icon1">
+                 Nina D'Ambrosio</div>
+        <div>
+            <ul class="nav-links">
+                <li> <a href="#about"> About</a></li>
+                <li> <a href="#experience"> Expirience</a></li>
+                <li> <a href="#projects"> Projects</a></li>
+                <li> <a href="#contact"> Contact</a></li>
+            </ul>
+        </div>
+        </nav>
+        <!--2nd nav idk-->
+        <nav id="hamburger-nav">
+            <div class="logo"> 
+                Nina D'Ambrosio</div>
+        <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+        </div>
+        <div class="menu-links">
+                <li> <a href="#about"onclick="toggleMenu()"> About</a></li>
+                <li> <a href="#experience"onclick="toggleMenu()"> Expirience</a></li>
+                <li> <a href="#projects"onclick="toggleMenu()"> Projects</a></li>
+                <li> <a href="#contact"onclick="toggleMenu()"> Contact</a></li>
+        </div>
+    </div>
+</nav>
+<!--profile section-->
+<section id="profile">
+    <div class="section_pic-contatiner">
+        <img src="./assets/images/pfp.jpeg" alt="Nina D'Ambrosio profile picture">
+    </div>
+    <div class="section_text">
+        <p class="section_text_p1"> Hello I'm</p>
+        <h1 class="title">Nina D'Ambrosio</h1>
+        <p class="section_text_p2"> 12th Grade Student</p>
+    <div class="btn-container">
+        <button class="btn btn-color-2"onclick="window.open('./assets/Resume.pdf')">
+            Download Resume
+        </button>
+        <button class="btn btn-color-1"onclick="location.href='./#contact'">
+            Contact Info
+        </button>
+    </div>
+    <div id="socials-container">
+        <img src="./assets/images/linkedin.png" alt="My linkedin"
+        class="icon" onclick="location.href= 'https://www.linkedin.com/in/nina-d-ambrosio/'">
+        <img src="./assets/images/github.png" alt="My github"
+        class="icon" onclick="location.href= 'https://github.com/ninaorangina'">
+    </div>
+    </div>
+</section>
+<!--about-->
+<section id="about">
+<p class="section_text_p1">Get To Know More</p>
+<h1 class="title">About Me</h1>
+<div class="section-container">
+    <div class="section_pic-contatiner">
+        <img src="./assets/images/pfp.jpeg"
+        alt=" Profile picture"
+        class="about-pic"/>
+    </div>
+    <div class="about-details-container">
+        <div class="about-containers">
+            <div class="details-container">
+               <img src="./assets/images/schoolicon.png" 
+               alt="school icon"
+               class="icon1"/>
+               <h3>Expirience</h3>
+               <p>2+ years<br/>Student</p>
+            </div>
+            <div class="details-container">
+                <img src="./assets/images/awards.png" 
+                alt="award icon"
+                class="icon1"/>
+                <h3>Awards</h3>
+                <p>National Recgnition<br/>Brandeis Book Award</p> 
+            </div>
+        </div>
+        <div class="text-container">
+<p>Lorem ipsum dolor sit amet consectetur 
+    adipisicing elit. Ipsum voluptatum
+</p>
+        </div>
+    </div>
+</div>
+<img src="./assets/images/arrow.png"
+alt="arrow down"
+class="icon arrow"
+onclick="location.href='./#experience'"
+>
+</section>
+<section id="contact">
+    <p class="section_text_p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+            <img src="./assets/images/mail.png"
+            alt="email icon"
+            class="icon1 contact-icon"
+            />
+            <p><a href="mailto:ninaedmail@gmail.com">ninaedmail@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+            <img src="./assets/images/linkedin.png"
+            alt="linkedin icon"
+            class="icon1 contact-icon"
+            />
+            <p><a href="https://www.linkedin.com/in/nina-d-ambrosio/">LinkedIn</a></p>
+        </div>
+    </div>
+</section>
+<footer>
+    <nav>
+        <div class="nav-links-container">
+            <ul class="nav-links">
+                <li> <a href="#about"> About</a></li>
+                <li> <a href="#experience"> Expirience</a></li>
+                <li> <a href="#projects"> Projects</a></li>
+                <li> <a href="#contact"> Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <p>Copyright &#169; 2024 Nina D'Ambrosio. All Rights Reserved</p>
+</footer>
+        <script src="script.js"></script>
+    </body>
+</html>
